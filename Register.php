@@ -7,7 +7,7 @@ require("partials/header.php");
         <div class="d-flex justify-content-center mt-4">
             <div class="col-8">
                 <div class="card w-100">
-                    <h5 class="card-header">Featured</h5>
+                    <h5 class="card-header">Login</h5>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-4 text-end">
@@ -17,11 +17,13 @@ require("partials/header.php");
                                 <p class="form-label mt-4">Confirm Password</p>
                             </div>
                             <div class="col-8 pe-5">
-                                <input type="text" name="name" class="form-control mb-3">
-                                <input type="email" name="email" class="form-control mb-3">
-                                <input type="text" name="password" class="form-control mb-3">
-                                <input type="text" name="confirmPassword" class="form-control mb-3">
-                                <input type="submit" class="btn btn-primary" value="Register">
+                                <form method="post" action="./app/functions.php">
+                                    <input type="text" name="name" class="form-control mb-3">
+                                    <input type="email" name="email" class="form-control mb-3">
+                                    <input type="text" name="password" class="form-control mb-3">
+                                    <input type="text" name="confirmPassword" class="form-control mb-3">
+                                    <input type="submit" class="btn btn-primary" value="Register" name="register" />
+                                </form>
                             </div>
                         </div>
                     </div>

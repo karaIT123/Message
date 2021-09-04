@@ -16,17 +16,17 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
-        <a class="navbar-brand" href="/Message/Index">Message</a>
+        <a class="navbar-brand" href="../index.php">Message</a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <div class="navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/Login">Login</a>
+                        <a class="nav-link active" href="../Login.php">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/Message/Register.php">Register</a>
+                        <a class="nav-link active" href="../Register.php">Register</a>
                     </li>
                 </ul>
             </div>
